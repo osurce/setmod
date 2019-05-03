@@ -42,6 +42,10 @@ echo_current_song = true
 # This allows doing stuff like playing a song on your own client.
 sync_player_interval = "10s"
 
+# If you want a certain playlist to play if there is no requeted song. Default is "Songs"
+# You need your playlist URL. You can get that by right clicking on your playlist and then "share > copy spotify url" 
+# playlist = "playlist_url"
+
 [current_song]
 path = "E:\\temp\\current_song.txt"
 not_playing = "No Song Playing"
